@@ -7,7 +7,7 @@ function getLibraryInfo () {
   return {
     info: {
       name:'cDriverScratch',
-      version:'0.0.1',
+      version:'0.0.2',
       key:'MTnrkatWa6Lrta8eAg6_H0qi_d-phDA33',
       share:"https://script.google.com/d/1ka9ODRxrUKUOTnuv4CkL9QnBTjkrXQhP0yJF-R2wjVz-qVdEK9G2S9sH/edit?usp=sharing",
       description:"scratch driver for dbabstraction"
@@ -283,7 +283,6 @@ var DriverScratch = function (handler,keyName,id,optDriverOb,accessToken, option
     return result;
   };
 
-
   /**
    * DriverScratch.remove()
    * @param {object} queryOb some query object 
@@ -293,7 +292,16 @@ var DriverScratch = function (handler,keyName,id,optDriverOb,accessToken, option
   self.remove = function (queryOb,queryParams) {
     return delegate.remove(queryOb,queryParams);
   };
-     
+  
+  /**
+   * DriverMemory.removeById()
+   * @param {string} keys key to remove
+   * @return {object} results from selected handler
+   */ 
+  self.removeByIds = function (keys) {
+    return delegate.removeByIds (keys,'key');
+  };
+  
   /**
    * DriverScratch.save()
    * @param {Array.object} obs array of objects to write
@@ -324,7 +332,7 @@ var DriverScratch = function (handler,keyName,id,optDriverOb,accessToken, option
   };
   
   self.getGuts = function (keys) {
-    return self.getMem().get ( keys,true,'row');
+    return self.getMem().get ( keys,true,'key');
   };
 
    /**
@@ -346,4 +354,3 @@ var DriverScratch = function (handler,keyName,id,optDriverOb,accessToken, option
   return self;
   
 }
-
