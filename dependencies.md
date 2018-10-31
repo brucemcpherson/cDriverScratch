@@ -1,5 +1,5 @@
 # Google Apps Script Project: cDriverScratch
-This repo (cDriverScratch) was automatically updated on 14 January 2018 11:02:30 GMT by GasGit
+This repo (cDriverScratch) was automatically updated on 31 October 2018 11:38:37 GMT by GasGit
 
 For more information see the [desktop liberation site](http://ramblings.mcpher.com/Home/excelquirks/drivesdk/gettinggithubready "desktop liberation") or [contact me on G+](https://plus.google.com/+BruceMcpherson "Bruce McPherson - GDE")
 ## Details for Apps Script project cDriverScratch
@@ -11,20 +11,23 @@ The shared link for [cDriverScratch is here](https://script.google.com/d/1ka9ODR
 --- | --- 
 cDriverScratch| server_js
 forPublishing| server_js
+appsscript| json
 ### Directly referenced libraries
 *library*|*identifier*|*key*|*version*|*dev mode*|*source*|
 --- | --- | --- | --- | --- | --- 
-cDelegateMemory| cDelegateMemory|MyIN8WHN1Uf3EG-obHsjrAyz3TLx7pV4j|12|no|[here](libraries/cDelegateMemory "library source")
-cCacheHandler| cCacheHandler|M3reA5eBxtwxSqCEgPywb9ai_d-phDA33|17|no|[here](libraries/cCacheHandler "library source")
-cDriverMemory| cDriverMemory|M96uVZRXXG_RY3c2at9V6tSz3TLx7pV4j|12|no|[here](libraries/cDriverMemory "library source")
+cDelegateMemory| cDelegateMemory|1vTqRouwf8VVyz9lSdqMBhfuqUM0po3GQCwfjbTlCqOKB2QjGAFbum0dL|12|no|[here](libraries/cDelegateMemory "library source")
+cDriverMemory| cDriverMemory|101pVFakzEfvHquUFOmZafAzfBAGSotgH56IqVcGmWNBu7J0sweklqyCB|12|no|[here](libraries/cDriverMemory "library source")
+cCacheHandler| cCacheHandler|1U6j9t_3ONTbhTCvhjwANMcEXeHXr4shgzTG0ZrRnDYLcFl3_IH2b2eAY|17|no|[here](libraries/cCacheHandler "library source")
 ### All dependencies and sub dependencies
 *library*|*identifier*|*key*|*version*|*dev mode*|*source*|
 --- | --- | --- | --- | --- | --- 
-cDelegateMemory| cDelegateMemory|MyIN8WHN1Uf3EG-obHsjrAyz3TLx7pV4j|12|no|[here](libraries/cDelegateMemory "library source")
-cDriverMemory| cDriverMemory|M96uVZRXXG_RY3c2at9V6tSz3TLx7pV4j|12|no|[here](libraries/cDriverMemory "library source")
-cUseful| cUseful|Mcbr-v4SsYKJP7JMohttAZyz3TLx7pV4j|77|no|[here](libraries/cUseful "library source")
-cCacheHandler| cCacheHandler|M3reA5eBxtwxSqCEgPywb9ai_d-phDA33|17|no|[here](libraries/cCacheHandler "library source")
+cDelegateMemory| cDelegateMemory|1vTqRouwf8VVyz9lSdqMBhfuqUM0po3GQCwfjbTlCqOKB2QjGAFbum0dL|12|no|[here](libraries/cDelegateMemory "library source")
+cDriverMemory| cDriverMemory|101pVFakzEfvHquUFOmZafAzfBAGSotgH56IqVcGmWNBu7J0sweklqyCB|12|no|[here](libraries/cDriverMemory "library source")
+cUseful| cUseful|1EbLSESpiGkI3PYmJqWh3-rmLkYKAtCNPi1L2YCtMgo2Ut8xMThfJ41Ex|77|no|[here](libraries/cUseful "library source")
+cCacheHandler| cCacheHandler|1U6j9t_3ONTbhTCvhjwANMcEXeHXr4shgzTG0ZrRnDYLcFl3_IH2b2eAY|17|no|[here](libraries/cCacheHandler "library source")
 ### Enabled Google Services
 no libraries discovered
-###Need more detail ?
+### Scopes required
+no scopes discovered
+### Need more detail ?
 You can see [full project info as json here](info.json)
